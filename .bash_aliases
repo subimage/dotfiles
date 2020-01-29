@@ -27,7 +27,7 @@ alias binit="bi && b package && echo 'vendor/ruby' >> .gitignore"
 
 alias ni="npm install"
 
-alias dotfiles='/usr/local/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias dotfile='/usr/local/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # Source editing
 alias subln="subl -n"
