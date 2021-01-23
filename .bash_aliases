@@ -26,6 +26,7 @@ alias be="b exec"
 alias binit="bi && b package && echo 'vendor/ruby' >> .gitignore"
 
 alias ni="npm install"
+alias py="python"
 
 alias dotfile='/usr/local/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
@@ -41,13 +42,6 @@ alias grso="git remote show origin"
 
 alias v="vagrant"
 
-alias t5="termdown 5m -v Alex"
-alias t15="termdown 15m -v Alex"
-alias t25="termdown 25m -v Alex"
-alias t45="termdown 45m -v Alex"
-
-
-alias mr="HOST=https://herer.ngrok.io mocha --timeout 15000 --compilers js:babel-register "
 alias ip="curl http://ipv4.icanhazip.com"
 whitelist () {
   ip=${1:-$(ip)}
