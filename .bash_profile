@@ -38,11 +38,6 @@ if [ -e $HOME/.env ] ; then
   source $HOME/.env
 fi
 
-# bash-completion
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-	. $(brew --prefix)/etc/bash_completion
-fi
-
 # Bash history
 # https://www.digitalocean.com/community/tutorials/how-to-use-bash-history-commands-and-expansions-on-a-linux-vps
 HISTSIZE=5000
