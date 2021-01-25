@@ -43,11 +43,6 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 	. $(brew --prefix)/etc/bash_completion
 fi
 
-# Green Bits Banjo
-eval "$($HOME/.banjo/bin/banjo init -)"
-# Green Bits High Sierra herer-api fix
-export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
-
 # Bash history
 # https://www.digitalocean.com/community/tutorials/how-to-use-bash-history-commands-and-expansions-on-a-linux-vps
 HISTSIZE=5000
